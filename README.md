@@ -5,16 +5,19 @@ PyTorch implementation of the paper "Few-Shot Bearing Fault Diagnosis Method via
 ## Requirements
 pip install -r requirements.txt
 
+## Hardware Requirements
+- NVIDIA GPU with CUDA support (tested on RTX 4090)
+- 16GB+ GPU memory recommended
+
 ## Dataset Preparation
 
 ### CWRU Dataset
 The CWRU dataset will be automatically downloaded when running the training script. The download links are provided in `metadata.txt`.
 
 ### PU Dataset
-Please download the PU dataset from:
-https://mb.uni-paderborn.de/kat/forschung/kat-datacenter/bearing-datacenter/data-sets-and-download
-
-Place the extracted files in `Datasets/PU/`.
+1. Download from: https://mb.uni-paderborn.de/kat/forschung/kat-datacenter/bearing-datacenter/data-sets-and-download
+2. Extract all .rar files
+3. Organize as: Datasets/PU/K001/, Datasets/PU/KA01/, etc.
 
 ## Training
 
