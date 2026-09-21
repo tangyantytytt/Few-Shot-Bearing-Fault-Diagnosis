@@ -1,0 +1,14 @@
+Datasets/
+Paderborn/
+dataset.zip
+*.rar
+checkpoints/
+improved_checkpoints/
+__pycache__/
+*.pyc
+*.log
+visualization_*/
+complete_ablation_results/
+images/*.png
+__MACOSX/
+.DS_Store
