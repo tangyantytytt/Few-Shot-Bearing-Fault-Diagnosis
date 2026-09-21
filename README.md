@@ -5,6 +5,17 @@ PyTorch implementation of the paper "Few-Shot Bearing Fault Diagnosis Method via
 ## Requirements
 pip install -r requirements.txt
 
+## Dataset Preparation
+
+### CWRU Dataset
+The CWRU dataset will be automatically downloaded when running the training script. The download links are provided in `metadata.txt`.
+
+### PU Dataset
+Please download the PU dataset from:
+https://mb.uni-paderborn.de/kat/forschung/kat-datacenter/bearing-datacenter/data-sets-and-download
+
+Place the extracted files in `Datasets/PU/`.
+
 ## Training
 
 ### CWRU (1-shot)
